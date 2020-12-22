@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="500f52a9-4589-4e99-9857-b3e757eb9c07" name="Default Changelist" comment="Enabled django admin for user profile model">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/vagrant_cwd" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/vagrant_cwd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles_api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profiles_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_project/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608586753967</updated>
       <workItem from="1608634056389" duration="2625000" />
-      <workItem from="1608643806390" duration="2351000" />
+      <workItem from="1608643806390" duration="4348000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608588134814</created>
@@ -169,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608632624876</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Enabled django admin for user profile model">
+      <created>1608646266540</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608646266540</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
