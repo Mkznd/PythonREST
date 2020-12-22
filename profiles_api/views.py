@@ -1,10 +1,9 @@
-from typing import List
-
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from profiles_api import serializers
 from rest_framework import viewsets
+from profiles_api import models
 
 
 class HelloAPIView(APIView):
@@ -83,18 +82,24 @@ class HelloViewSet(viewsets.ViewSet):
                 status=status.HTTP_400_BAD_REQUEST
             )
 
-    def retrieve(self,request,pk=None):
+    def retrieve(self, request, pk=None):
         """Get a specific object by its id"""
         return Response({'http_method': 'GET'})
 
-    def update(self,request, pk=None):
+    def update(self, request, pk=None):
         """Update an object"""
         return Response({'http_method': 'PUT'})
 
-    def partial_update(self,request,pk=None):
+    def partial_update(self, request, pk=None):
         """Update part of an object"""
         return Response({'http_method': 'PATCH'})
 
     def destroy(self, request, pk=None):
         """Destroy an object"""
         return Response({'http_method': 'DELETE'})
+
+
+class UserProfileViewSet(viewsets.ModelViewSet):
+    """Create and update profile"""
+    serializer_class = serializers.UserProfileSerializer
+    queryset = models.UserProfile.objects.all()
