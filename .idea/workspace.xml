@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="500f52a9-4589-4e99-9857-b3e757eb9c07" name="Default Changelist" comment="Added viewset to profile API">
+    <list default="true" id="500f52a9-4589-4e99-9857-b3e757eb9c07" name="Default Changelist" comment="Added User Profile interface">
+      <change afterPath="$PROJECT_DIR$/profiles_api/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles_api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608586753967</updated>
       <workItem from="1608634056389" duration="2625000" />
-      <workItem from="1608643806390" duration="10694000" />
+      <workItem from="1608643806390" duration="15161000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608588134814</created>
@@ -191,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608654771826</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added User Profile interface">
+      <created>1608659879336</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608659879336</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +228,7 @@
     <MESSAGE value="Added HelloAPI and DefaultAPI views" />
     <MESSAGE value="Added POST, PUT, PATCH and DELETE methods" />
     <MESSAGE value="Added viewset to profile API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added viewset to profile API" />
+    <MESSAGE value="Added User Profile interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added User Profile interface" />
   </component>
 </project>
