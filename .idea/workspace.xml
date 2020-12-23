@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="500f52a9-4589-4e99-9857-b3e757eb9c07" name="Default Changelist" comment="Added searching">
+    <list default="true" id="500f52a9-4589-4e99-9857-b3e757eb9c07" name="Default Changelist" comment="Added login API">
+      <change afterPath="$PROJECT_DIR$/profiles_api/migrations/0003_profilefeeditem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/views.py" afterDir="false" />
     </list>
@@ -116,7 +121,7 @@
       <updated>1608586753967</updated>
       <workItem from="1608634056389" duration="2625000" />
       <workItem from="1608643806390" duration="20485000" />
-      <workItem from="1608675043680" duration="978000" />
+      <workItem from="1608675043680" duration="7328000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608588134814</created>
@@ -223,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608668064026</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added login API">
+      <created>1608676067907</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608676067908</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +269,7 @@
     <MESSAGE value="Added User Profile interface" />
     <MESSAGE value="Added permissions and authentication" />
     <MESSAGE value="Added searching" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added searching" />
+    <MESSAGE value="Added login API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added login API" />
   </component>
 </project>
